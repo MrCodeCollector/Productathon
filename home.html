@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title> 851 California </title>
+
+          <!-- Materialize Framework -->
+          <!-- Import Font -->
+          <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+          <!--Let browser know website is optimized for mobile-->
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+          <!--Import materialize.css-->
+          <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+          <link type="text/css" rel="stylesheet" href="css/main.css" media="screen,projection"/>
+
+          <link type="text/css" rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+          <!-- Angular Framework -->
+          <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+    </head>
+
+    <body>
+          <!--Import jQuery before materialize.js-->
+          <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+          <script type="text/javascript" src="js/materialize.min.js"></script>
+
+          <!-- Home/Banner -->
+		<div id="home" class="off-white" style="width: 100%;">
+
+			<div class="navbar-fixed">
+		      	<nav class="off-white">
+				    	<div class="nav-wrapper">
+				      	<a href="index.html" class="brand-logo text-icon-color" style="padding-left: 20px; font-weight: 200">
+	            				<b class="yellow-dark-text" style="font-weight: 400">
+								851
+								<strong class="yellow-dark-text" style="font-weight: 200">
+									California
+								</strong>
+							</b>
+						</a>
+
+				      	<div class="row">
+                                          <ul id="profile_dropdown" class="dropdown-content">
+                                                <li><a href="#!" class="text-icon-color">Account</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="#!" class="text-icon-color">Settings</a></li>
+                                                <li class="divider"></li>
+                                                <li><a href="index.html" class="text-icon-color">Log Out</a></li>
+                                          </ul>
+
+	    						<ul id="nav-mobile" class="right hide-on-med-and-down">
+                                                <li><a class="text-icon-color" style="font-size: 22.5px; font-weight: 300; padding-right: 30px; padding-left: 30px" href="createIssue.html">Create Issue</a></li>
+                                                <li><i class="large material-icons text-icon-color" style="border-left: 1px solid; padding-left: 15px">perm_identity</i></li>
+                                                <!-- Dropdown Trigger -->
+                                                <li><a class="dropdown-button text-icon-color" style="font-size: 22.5px; font-weight: 300; padding-right: 30px; padding-left: 30px" href="#!" data-activates="profile_dropdown">David Ciaffoni<i class="material-icons right">arrow_drop_down</i></a></li>
+	      					</ul>
+	  					</div>
+
+				    	</div>
+				</nav>
+			</div>
+		</div>
+
+            <section id="logIn" class="off-white content-inner" style="width: 100%; padding-top: 1%; padding-bottom: 1%">
+                  <h1 class="container text-icon-color center">
+                        <b style="font-weight: 400; font-size: 80">
+                              Issues
+                        </b>
+                  </h1>
+
+                  <div class="card">
+
+                        <!-- kitchen -->
+
+                        <div class="card-stacked">
+                              <i class="medium material-icons right yellow-dark-text" style="padding-top: 10px; padding-left: 30px">star</i>
+                              <div class="card-action" style="padding-top: 0%; padding-bottom: 0%">
+                                    <h1 style="font-size: 40px; font-weight: 300">Kitchen</h1>
+                              </div>
+                              <div class="card-content">
+                                    <p>There are too many dishes left unwashed by other tennants.</p>
+                              </div>
+                        </div>
+
+                              <ul class="collection row" style="font-size: 25px; font-weight: 300">
+                                    <li style="padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item col s4">
+                                          Submitted
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid;" class="collection-item col s4">
+                                          Received
+                                          <i class="small material-icons white-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="padding-top: 1.5%; padding-bottom: auto; height: auto" class="collection-item col s4">
+                                          Resolved
+                                          <i class="small material-icons white-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+                              </ul>
+                  </div>
+
+
+
+                  <!-- <div class="card dark-primary hoverable">
+                        <div class="card-image waves-effect waves-black waves-block">
+                              <img class="activator" style="height: 200px" src="img/teal.jpg">
+                        </div>
+                        <div class="card-content">
+                              <span class="card-title activator white-text">Administrator<i class="material-icons right">more_vert</i></span>
+                        </div>
+                        <div class="card-reveal">
+                              <span class="card-title grey-text text-darken-4">Administrator<i class="material-icons right">close</i></span>
+                              <p>Here is some more information about this product that is only revealed once clicked on.</p>
+                        </div>
+                  </div> -->
+
+
+
+
+
+                  <!-- Bathroom -->
+
+                  <div class="card">
+                        <div class="card-stacked">
+                              <i class="medium material-icons right" style="padding-top: 10px; padding-left: 30px; color: #b0bec5">star</i>
+                              <div class="card-action" style="padding-top: 0%; padding-bottom: 0%">
+                                    <h1 style="font-size: 40px; font-weight: 300">Bathroom</h1>
+                              </div>
+                              <div class="card-content">
+                                    <p>There's always water on the floor every time I am tryign to change in the mornings.</p>
+                              </div>
+                        </div>
+                        <div class="card">
+                              <ul class="row collection" style="font-size: 25px; font-weight: 300">
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item left col s4">
+                                          Submitted
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item left col s4">
+                                          Received
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%" class="collection-item left col s4">
+                                          Resolved
+                                          <i class="small material-icons white-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+
+                  <!-- Pipes -->
+
+                  <div class="card">
+                        <div class="card-stacked">
+                              <i class="medium material-icons right" style="padding-top: 10px; padding-left: 30px; color: #b0bec5">star</i>
+                              <div class="card-action" style="padding-top: 0%; padding-bottom: 0%">
+                                    <h1 style="font-size: 40px; font-weight: 300">Pipes</h1>
+                              </div>
+                              <div class="card-content">
+                                    <p>The water came out brown. End of story.</p>
+                              </div>
+                        </div>
+                        <div class="card">
+                              <ul class="row collection">
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item left col s4">
+                                          Submitted
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item left col s4">
+                                          Received
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%" class="collection-item left col s4">
+                                          Resolved
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+
+                  <!-- Bathtub Faucet  -->
+
+                  <div class="card">
+                        <div class="card-stacked">
+                              <i class="medium material-icons right yellow-dark-text" style="padding-top: 10px; padding-left: 30px">star</i>
+                              <div class="card-action" style="padding-top: 0%; padding-bottom: 0%">
+                                    <h1 style="font-size: 40px; font-weight: 300">Bathtub Faucet</h1>
+                              </div>
+                              <div class="card-content">
+                                    <p>I can't shave my legs because the faucet keeps falling off.</p>
+                              </div>
+                        </div>
+                        <div class="card">
+                              <ul class="row collection">
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item left col s4">
+                                          Submitted
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item left col s4">
+                                          Received
+                                          <i class="small material-icons white-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%" class="collection-item left col s4">
+                                          Resolved
+                                          <i class="small material-icons white-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+
+                  <!-- Dead rat -->
+
+                  <div class="card">
+                        <div class="card-stacked">
+                              <i class="medium material-icons right yellow-dark-text" style="padding-top: 10px; padding-left: 30px">star</i>
+                              <div class="card-action" style="padding-top: 0%; padding-bottom: 0%">
+                                    <h1 style="font-size: 40px; font-weight: 300">Dead Rat</h1>
+                              </div>
+                              <div class="card-content">
+                                    <p>I'm pretty sure there's a dead rat in the wall because no amount of febreeze will clear the smell.</p>
+                              </div>
+                        </div>
+                        <div class="card">
+                              <ul class="row collection">
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item left col s4">
+                                          Submitted
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item left col s4">
+                                          Received
+                                          <i class="small material-icons white-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%" class="collection-item left col s4">
+                                          Resolved
+                                          <i class="small material-icons white-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+
+                  <!-- Moldy Cheese -->
+
+                  <div class="card">
+                        <div class="card-stacked">
+                              <i class="medium material-icons right yellow-dark-text" style="padding-top: 10px; padding-left: 30px">star</i>
+                              <div class="card-action" style="padding-top: 0%; padding-bottom: 0%">
+                                    <h1 style="font-size: 40px; font-weight: 300">Moldy Cheese</h1>
+                              </div>
+                              <div class="card-content">
+                                    <p>Someone left what seems to be moldy cheese in the fridge, but i'd rather not smell it to check.</p>
+                              </div>
+                        </div>
+                        <div class="card">
+                              <ul class="row collection">
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item left col s4">
+                                          Submitted
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item left col s4">
+                                          Received
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%" class="collection-item left col s4">
+                                          Resolved
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+
+                  <!-- Bed bugs -->
+
+                  <div class="card">
+                        <div class="card-stacked">
+                              <i class="medium material-icons right yellow-dark-text" style="padding-top: 10px; padding-left: 30px">star</i>
+                              <div class="card-action" style="padding-top: 0%; padding-bottom: 0%">
+                                    <h1 style="font-size: 40px; font-weight: 300">Bed Bugs</h1>
+                              </div>
+                              <div class="card-content">
+                                    <p>I keep waking up with more bites on my arms, and it wasn't like this back at home before I moved in.</p>
+                              </div>
+                        </div>
+                        <div class="card">
+                              <ul class="row collection">
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item left col s4">
+                                          Submitted
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%; border-right: 1px solid" class="collection-item left col s4">
+                                          Received
+                                          <i class="small material-icons green-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+
+                                    <li style="font-size: 25px; font-weight: 300; padding-top: 1.5%; padding-bottom: 1%" class="collection-item left col s4">
+                                          Resolved
+                                          <i class="small material-icons white-done" style="position: relative; bottom: -4.5px">done</i>
+                                    </li>
+                              </ul>
+                        </div>
+                  </div>
+            </section>
+    </body>
+
+    <footer id="footer" class="off-white content-inner" style="padding-bottom: 1%; padding-top: 0%">
+          <h1 class="container center-align" style="padding-top: 0%">
+                <b style="font-size: 35px">
+                      <a href="mailto:contact@851california.io" class="text-icon-color" style="font-weight: 300">
+                            contact@851california.io
+                      </a>
+                </b>
+          </h1>
+
+          <div class="container" style="padding-bottom: 2%; padding-top: 1.5%">
+                <a href="#">
+                      <img class="content-img-text" src="assets/facebook.svg" alt="#" style="max-width: 3%; max-height: auto; margin-left: 23%"/>
+                </a>
+
+                <a href="#">
+                      <img class="content-img-text" src="assets/twitter.svg" alt="#" style="max-width: 3%; max-height: auto; margin-left: 33.5%"/>
+                </a>
+
+                <img class="content-img-text" src="assets/instagram.svg" alt="#" style="max-width: 3%; max-height: auto; margin-left: 44%"/>
+          </div>
+
+          <h1 class="container center-align" style="font-size: 25px; font-weight: 300; padding-top: 3%">
+                © 2016 David and Alex. Made with
+                <i class="fa fa-heart" style="color: red">
+                </i>
+                by the 851 Crew.
+          </h1>
+    </footer>
+</html>
