@@ -1,1 +1,1 @@
-angular.module('851California', []);
+angular.module('851California', ['ui.router']);
